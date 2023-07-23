@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+*{
+	background-color: rgb(135, 206, 235);
+}
+.first{
+	background-color: black;
+	color: white;
+}
+.third{
+	color: red;
+}
+.list-item{
+	width: 50%;
+	background-color: gray;
+	padding: 10px;
+}
+ul li:nth-child(even){
+		background-color: white;
+}
+ul li:first-child,:last-child{
+	font-size: 22px;
+}
+ul li:nth-last-child(3)
+{
+	background-color: pink;
+}
